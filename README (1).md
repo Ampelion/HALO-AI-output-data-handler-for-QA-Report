@@ -1,6 +1,6 @@
-# OCT4 Data Handler
+# Data Handler for rare cell detction assay (intended for output from Definiens Tissue Studio and HALO AI)
 
-A VBA macro for automated processing, analysis, and quality control reporting of OCT4 immunohistochemistry assay data from image analysis platforms.
+A VBA macro for automated processing, analysis, and quality control reporting of nuclear immunohistochemistry (IHC) assay data from image analysis platforms.
 
 ## Overview
 
@@ -234,7 +234,7 @@ This macro facilitates electronic record creation for regulated environments:
 - **Validation**: Clear pass/fail criteria based on pre-defined acceptance limits
 
 ### Best Practices
-- Always work on a copy of raw data files
+- Always work on a COPY of raw data files
 - Archive original CSV exports separately
 - Document reference range values and their justification
 - Maintain macro version control
@@ -269,13 +269,9 @@ This macro facilitates electronic record creation for regulated environments:
 
 - **v1.0** - Initial release with full analytical reporting
 
-## License
-
-[Add your license here - e.g., MIT, GPL, etc.]
-
 ## Author
 
-[Your name/organization]
+Josie Babin
 
 ## Acknowledgments
 
