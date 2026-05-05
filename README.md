@@ -47,6 +47,8 @@ The color logic reflects the control structure of the upstream assay. Each color
 
 *Raw csv output from HALO AI and macro converted to review-friendly layout*
 
+
+
 ![Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill colour to extract summary data for the analysis. QA wants to know if enough nuclei were looked at, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right above the signature box](images/data_prepped.png)
 
 *Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box*
