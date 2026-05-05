@@ -37,16 +37,18 @@ The color logic reflects the control structure of the upstream assay. Each color
 
 ![swatch](images/swatch_lightlavender.png)**0.01% hESC-RCP in-range positive control.** A sham drug substance manufactured to a defined positive percentage. Each image-analysis run requires the 0.01% control to fall within its own pre-established reference range; if it doesn't, the entire run is rejected. The macro runs an explicit YES/NO formula for this control.
 
-> **Note:** the reference range is established as a ride-along assay that shows up as ![swatch](images/swatch_darklavender.png)"Control Test" in a normal assay run. Control Test is run 5 times for each 0.01% control lot.
+>![swatch](images/swatch_darklavender.png) **Note:** the reference range is established as a ride-along assay that shows up as "Control Test" in a normal assay run. Control Test is run 5 times for each 0.01% control lot.
 
 ![swatch](images/swatch_lightblue.png)**Isotype control (negative control).** A non-specific antibody on the same sample background. By definition, any positive here is a false positive. Establishes the noise floor, which is hopefully zero.
 
 ![swatch](images/swatch_darkblue.png)**Test slides (LOT#).** The actual product samples. The reportable result is computed only after the assay control passes, the in-range positive control falls in range, and the isotype control behaves as expected. The macro classifies the final percentage into one of three regulatory categories: below the lower limit of detection (LLOD), below the lower quantitation limit 0.0011%, or the actual numeric value if there is meaningful positivity.
 
 ![Raw csv output from HALO AI and macro converted to review-friendly layout](images/premacropost.png)
+
 *Raw csv output from HALO AI and macro converted to review-friendly layout*
 
-![Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box](images/data_prepped.png)
+![Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill colour to extract summary data for the analysis. QA wants to know if enough nuclei were looked at, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right above the signature box](images/data_prepped.png)
+
 *Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box*
 
 ### The System Suitability Check Image (montage)
