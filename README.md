@@ -1,4 +1,4 @@
-# Data Handler for rare cell detction assay (intended for output from Definiens Tissue Studio and HALO AI)
+# Data Handler for rare cell detction assay (intended for output from HALO AI)
 
 A VBA macro for automated processing, analysis, and quality control reporting of nuclear immunohistochemistry (IHC) assay data from image analysis platforms.
 
@@ -265,18 +265,6 @@ This macro facilitates electronic record creation for regulated environments:
 **Problem**: Signature block misaligned  
 **Solution**: Re-run macro on fresh data; manual edits may have disrupted cell merging
 
-## Version History
-
-- **v1.0** - Initial release with full analytical reporting
-
 ## Author
 
 Josie Babin
-
-## Acknowledgments
-
-Developed for OCT4 immunohistochemistry quality control in stem cell characterization assays. Compatible with TissueStudio image analysis platform exports.
-
-## Contributing
-
-While this macro was developed for a specific analytical workflow, contributions and adaptations are welcome. Please note that modifications may require validation in regulated environments.
