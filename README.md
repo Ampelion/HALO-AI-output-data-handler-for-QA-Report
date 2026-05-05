@@ -33,15 +33,15 @@ The color logic reflects the control structure of the upstream assay. Each color
 
 > **Note:** RCP is Reaggregated Cell Product. Positive controls did not exist for this kind of assay, so I made some. Using serial dilutions of hESC, I spiked known quantities into our DS. This mimics the presence of a specific dose of undifferentiated cells in the DS. This is made of live cells that are cryopreserved until needed.
 
-**1% hESC-RCP positive control (assay control).** One control slide is included in every IHC staining tray (the stainer holds three trays of ten slides each). At 1% positive nuclei staining should be uniform across the section. If it is not, the entire tray is rejected. This is the staining go/no-go. In the macro, these slides receive a grey fill and are not aggregated into the test results; they're sentinels for whether the upstream IHC process produced analyzable material.
+![swatch](images/swatch_grey.png)**1% hESC-RCP positive control (assay control).** One control slide is included in every IHC staining tray (the stainer holds three trays of ten slides each). At 1% positive nuclei staining should be uniform across the section. If it is not, the entire tray is rejected. This is the staining go/no-go. In the macro, these slides receive a grey fill and are not aggregated into the test results; they're sentinels for whether the upstream IHC process produced analyzable material.
 
-**0.01% hESC-RCP in-range positive control.** A sham drug substance manufactured to a defined positive percentage. Each image-analysis run requires the 0.01% control to fall within its own pre-established reference range; if it doesn't, the entire run is rejected. The macro runs an explicit YES/NO formula for this control.
+![swatch](images/swatch_lightlavender.png)**0.01% hESC-RCP in-range positive control.** A sham drug substance manufactured to a defined positive percentage. Each image-analysis run requires the 0.01% control to fall within its own pre-established reference range; if it doesn't, the entire run is rejected. The macro runs an explicit YES/NO formula for this control.
 
 > **Note:** the reference range is established as a ride-along assay that shows up as "Control Test" in a normal assay run. Control Test is run 5 times for each 0.01% control lot.
 
-**Isotype control (negative control).** A non-specific antibody on the same sample background. By definition, any positive here is a false positive. Establishes the noise floor, which is hopefully zero.
+![swatch](images/swatch_lightblue.png)**Isotype control (negative control).** A non-specific antibody on the same sample background. By definition, any positive here is a false positive. Establishes the noise floor, which is hopefully zero.
 
-**Test slides (LOT#).** The actual product samples. The reportable result is computed only after the assay control passes, the in-range positive control falls in range, and the isotype control behaves as expected. The macro classifies the final percentage into one of three regulatory categories: below the lower limit of detection (LLOD), below the lower quantitation limit 0.0011%, or the actual numeric value if there is meaningful positivity.
+![swatch](images/swatch_darkblue.png)**Test slides (LOT#).** The actual product samples. The reportable result is computed only after the assay control passes, the in-range positive control falls in range, and the isotype control behaves as expected. The macro classifies the final percentage into one of three regulatory categories: below the lower limit of detection (LLOD), below the lower quantitation limit 0.0011%, or the actual numeric value if there is meaningful positivity.
 
 ![Raw csv output from HALO AI and macro converted to review-friendly layout](images/premacropost.png)
 *Raw csv output from HALO AI and macro converted to review-friendly layout*
