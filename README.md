@@ -37,7 +37,7 @@ The color logic reflects the control structure of the upstream assay. Each color
 
 ![swatch](images/swatch_lightlavender.png)**0.01% hESC-RCP in-range positive control.** A sham drug substance manufactured to a defined positive percentage. Each image-analysis run requires the 0.01% control to fall within its own pre-established reference range; if it doesn't, the entire run is rejected. The macro runs an explicit YES/NO formula for this control.
 
-> **Note:** the reference range is established as a ride-along assay that shows up as "Control Test" in a normal assay run. Control Test is run 5 times for each 0.01% control lot.
+> **Note:** the reference range is established as a ride-along assay that shows up as ![swatch](images/swatch_darklavender.png)"Control Test" in a normal assay run. Control Test is run 5 times for each 0.01% control lot.
 
 ![swatch](images/swatch_lightblue.png)**Isotype control (negative control).** A non-specific antibody on the same sample background. By definition, any positive here is a false positive. Establishes the noise floor, which is hopefully zero.
 
