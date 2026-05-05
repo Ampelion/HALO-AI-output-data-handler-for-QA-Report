@@ -13,6 +13,7 @@ The lot release safety case requires demonstrating DS purity; that any residual 
 The same biology that makes pluripotent cells useful makes them dangerous if they persist in numbers to the final product. Without demonstrating DS purity, we would not put these cells into people, nor would we be allowed to do so if we tried. This is a cooperation arrangement between regulatory authority and a biomedical research company working for the safety benefit of patients.
 
 ![Closeup example of IHC staining, positive nuclei at arrowheads. Panel a is ROI selection of aggregates, b panel is nuclear classification.  One slide can contain 500,000 nuclei](images/roi_seg_ihc.png)
+*Closeup example of IHC staining, positive nuclei at arrowheads. Panel a is ROI selection of aggregates, b panel is nuclear classification.  One slide can contain 500,000 nuclei
 
 ## What the macro does
 
@@ -42,8 +43,10 @@ The color logic reflects the control structure of the upstream assay. Each color
 **Test slides (LOT#).** The actual product samples. The reportable result is computed only after the assay control passes, the in-range positive control falls in range, and the isotype control behaves as expected. The macro classifies the final percentage into one of three regulatory categories: below the lower limit of detection (LLOD), below the lower quantitation limit 0.0011%, or the actual numeric value if there is meaningful positivity.
 
 ![Raw csv output from HALO AI and macro converted to review-friendly layout](images/premacropost.png)
+*Raw csv output from HALO AI and macro converted to review-friendly layout
 
 ![Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box](images/data_prepped.png)
+*Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box
 
 ### The System Suitability Check Image (montage)
 
