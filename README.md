@@ -40,9 +40,11 @@ The color logic reflects the control structure of the upstream assay. Each color
 **Isotype control (negative control).** A non-specific antibody on the same sample background. By definition, any positive here is a false positive. Establishes the noise floor, which is hopefully zero.
 
 **Test slides (LOT#).** The actual product samples. The reportable result is computed only after the assay control passes, the in-range positive control falls in range, and the isotype control behaves as expected. The macro classifies the final percentage into one of three regulatory categories: below the lower limit of detection (LLOD), below the lower quantitation limit 0.0011%, or the actual numeric value if there is meaningful positivity.
+
 ![Raw csv output from HALO AI and macro converted to review-friendly layout](images/premacropost.png)
 
 ![Ready for print and sign. Reviewer inputs confirmed positive nuclei then filters by fill clour to extract summary data for the analysis. QA wants to know if enough nuclei were lookedat, whether the 0.01% positive control is within its reference range, and what the test result is. These are laid out right about the signature box](images/data_prepped.png)
+
 ### The System Suitability Check Image (montage)
 
 There's a fifth thing the assay validates that isn't a sample at all. The System Suitability Check Image, the montage, is a single composite image containing every kind of weirdness the histology threw at us, with known analysis outcomes. Debris, literal edge cases from the edge of the glass slide, staining anomalies, duplicate objects, ambiguous objects were all included on this test image.
