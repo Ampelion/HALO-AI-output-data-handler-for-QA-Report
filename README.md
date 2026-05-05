@@ -12,6 +12,8 @@ The lot release safety case requires demonstrating DS purity; that any residual 
 
 The same biology that makes pluripotent cells useful makes them dangerous if they persist in numbers to the final product. Without demonstrating DS purity, we would not put these cells into people, nor would we be allowed to do so if we tried. This is a cooperation arrangement between regulatory authority and a biomedical research company working for the safety benefit of patients.
 
+![Closeup example of IHC staining, positive nuclei at arrowheads. Panel a is ROI selection of aggregates, b panel is nuclear classification.  One slide can contain 500,000 nuclei](images/roi_seg_ihc.png)
+
 ## What the macro does
 
 Transforms the slide analysis output CSV from HALO AI and produces a clear QA-ready report:
